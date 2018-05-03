@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "A sepa XML generation module",
   "main": "index.js",
+  "scripts": {
+    "test": "jest test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThomasFlorelli/sepa-gen.git"
@@ -19,6 +22,9 @@
     "url": "https://github.com/ThomasFlorelli/sepa-gen/issues"
   },
   "homepage": "https://github.com/ThomasFlorelli/sepa-gen#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
   "dependencies": {
     "lodash": "^4.17.10",
     "moment": "^2.22.1"
