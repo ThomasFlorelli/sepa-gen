@@ -1,0 +1,26 @@
+{
+  "name": "sepa-gen",
+  "version": "0.1.0",
+  "description": "A sepa XML generation module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasFlorelli/sepa-gen.git"
+  },
+  "keywords": [
+    "sepa",
+    "generator",
+    "payment",
+    "pain"
+  ],
+  "author": "Thomas Florelli <perso.thomas.florelli@gmail.com> (https://gocater.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThomasFlorelli/sepa-gen/issues"
+  },
+  "homepage": "https://github.com/ThomasFlorelli/sepa-gen#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1"
+  }
+}
